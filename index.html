@@ -4,70 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ridersnepaus</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/output.css">
+    
 </head>
-<body>
-    <header>
+<body class="font-poppins bg-black text-white"> 
+    <header class="bg-[url('/assets/images/image2.jpeg')] h-screen bg-no-repeat bg-cover ">
        
-        <nav>
-            <div class="logo-box">
-                <img src="./assets/images/ridersnepaus_logo.png" alt="Ridersnepaus_Logo">
-            </div>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#event">EVENTS</a></li>
-                <li><a href="#">GALLERY</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">CONTACT US</a></li>
+        <nav class="flex justify-between gap-3 items-center mx-20">
+       
+                <img src="./assets/images/ridersnepaus_logo.png" alt="Ridersnepaus_Logo" class="w-20">
+           
+            <ul class="flex items-center gap-5 justify-center">
+                <li><a href="#" class="text-xl font-medium px-3 py-2 bg-yellow-500 text-white">Home</a></li>
+                <li><a href="#" class="text-xl font-medium px-3 py-2 hover:bg-yellow-500">Events</a></li>
+                <li><a href="#" class="text-xl font-medium px-3 py-2 hover:bg-yellow-500">Gallery</a></li>
+                <li><a href="#" class="text-xl font-medium px-3 py-2 hover:bg-yellow-500">About Us</a></li>
+                <li><a href="#" class="text-xl font-medium px-3 py-2 hover:bg-yellow-500">Contact Us</a></li>
             </ul>
-            <button class="join-btn">JOIN COMMUNITY</button>
+            <button class="px-3 py-2 bg-green-500 text-white font-semibold text-xl">Join Community</button>
         </nav>
-      <div class="hero-content">
-        <p class="welcome">Welcome to</p>
-        <h1>RIDERSNEPAUS</h1>
-        <p class="status">COMMUNITY | EXPERIENCE | INSPIRE</p>
+      <div class=" absolute top-1/4 left-20 leading-none">
+       
+        <h1 class="text-6xl text-yellow-300 font-semibold"><span class="text-3xl text-white font-light">Welcome to </span> <br>RIDERSNEPAUS</h1>
+        <p class="text-2xl">COMMUNITY | EXPERIENCE | INSPIRE</p>
       </div>
     </header>
-    <section id="event">
-        <div class="sectionhead">
-            <h2 class="sectiontitle">Upcoming Events</h2>
+    <section class="h-screen  px-20">
+
+            <h2 class="sectiontitle text-3xl">Upcoming Events</h2>
+
+        <div class="flex gap-5 w-full overflow-hidden ">
+       <img class="w-4 object-contain basis-1/4" src="./assets/images/rally.jpg" alt="">
+       <img class="w-4 basis-1/4" src="./assets/images/rally.jpg" alt="">
+       <img class="w-4 basis-1/4" src="./assets/images/rally.jpg" alt="">
+       
+           
         </div>
-        <div class="event-container">
-            <div class="event-box">
-                <div class="event-image">
-                    <img src="./assets/images/rally.jpg" alt="">
-                </div>
-                <div class="event-title">
-                    <h3>1974AD Rally <br><span>
-                        21.09.2024
-                    </span></h3>
-                    
-                    <p>We are organizing rally for 1974 AD band coming in sydney for events in ICC. Startin from Granvile Lazy Barbers to Strathfield Square </p>
-                </div>
-            </div>
-            <div class="event-box">
-                <div class="event-image">
-                    <img src="./assets/images/rally.jpg" alt="">
-                </div>
-                <div class="event-title">
-                    <h3>1974AD Rally <br><span>
-                        21.09.2024
-                    </span></h3>
-                    <p>We are organizing rally for 1974 AD band coming in sydney for events in ICC. Startin from Granvile Lazy Barbers to Strathfield Square </p>
-                </div>
-            </div>
-            <div class="event-box">
-                <div class="event-image">
-                    <img src="./assets/images/rally.jpg" alt="">
-                </div>
-                <div class="event-title">
-                    <h3>1974AD Rally <br><span>
-                        21.09.2024
-                    </span></h3>
-                    <p>We are organizing rally for 1974 AD band coming in sydney for events in ICC. Startin from Granvile Lazy Barbers to Strathfield Square </p>
-                </div>
-            </div>
-        </div>
+       
     </section>
 </body>
 </html>
